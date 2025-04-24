@@ -2,6 +2,16 @@
     box-sizing: border-box;
   }
 
-#container div {
-    background-color: black;
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+#container .row {
+    display: flex;
+}
+
+.row .aSqure {
+    background-color: aqua;
+    border: 3px solid darkgray;
 }
