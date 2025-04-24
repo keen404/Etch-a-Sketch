@@ -20,6 +20,6 @@ body {
 
 .row .aSqure {
     background-color: aqua;
-    border: 3px solid darkgray;
+    border: 1px solid darkgray;
     flex: 1;
 }

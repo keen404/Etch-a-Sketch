@@ -8,7 +8,12 @@ document.addEventListener("DOMContentLoaded", () => {
         for (let j = 0; j < gridSize; j++) {
             const newDiv = document.createElement("div");
             newDiv.classList.add("aSqure");
+            newDiv.addEventListener("mouseenter", () => {
+                newDiv.style.backgroundColor = "black";
+            })
             gridRow.appendChild(newDiv);
         }
     }
+
+        
 });
