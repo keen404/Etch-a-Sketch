@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const container = document.querySelector("#container");
 
     const btn = document.createElement("button");
+    btn.textContent = "New Grid"
     // Add click event to button
         // Delete all the div inside container
         // Prompt user for grid size
