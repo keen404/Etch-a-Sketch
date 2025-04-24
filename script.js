@@ -8,13 +8,15 @@ document.addEventListener("DOMContentLoaded", () => {
         allDiv.forEach(e => {
             e.remove();
         })
-        const gridSize = +prompt("Grid Size of 'NxN'");
+        let gridSize = -1;
+        while (gridSize > 100 || gridSize < 0) {
+            gridSize = +prompt("Grid Size?");
+        }
         for (let i = 0; i < gridSize; i++) {
             const rowDiv = document.createElement("div");
             rowDiv.classList.add("row");
             container.appendChild(rowDiv);
             for (let j = 0; j < gridSize; j++) {
-                // Create a div
                 const squreDiv = document.createElement("div");
                 squreDiv.classList.add("aSqure");
                 squreDiv.addEventListener("mouseenter", () => {
