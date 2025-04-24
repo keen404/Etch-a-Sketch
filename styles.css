@@ -2,3 +2,6 @@
     box-sizing: border-box;
   }
 
+#container div {
+    background-color: black;
+}
