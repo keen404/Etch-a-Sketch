@@ -1,23 +1,25 @@
 *, *:after, *:before {
     box-sizing: border-box;
+    margin: 0px;
   }
 
-html, body {
-    height: 100%;
+body {
+    min-height: 100vh;
 }
 
 #container {
     display: flex;
     flex-direction: column;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
 }
 
 #container .row {
     display: flex;
+    flex: 1;
 }
 
 .row .aSqure {
     background-color: aqua;
     border: 3px solid darkgray;
+    flex: 1;
 }
