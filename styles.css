@@ -5,12 +5,18 @@
 
 body {
     min-height: 100vh;
+    background-color: antiquewhite;
 }
 
 #container {
     display: flex;
     flex-direction: column;
     height: 100vh;
+}
+
+#container button {
+    margin: 2px 37%;
+    font-size: xx-small;
 }
 
 #container .row {
