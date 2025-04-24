@@ -17,6 +17,7 @@ body {
 #container button {
     margin: 2px 37%;
     font-size: xx-small;
+    background-color: blanchedalmond;
 }
 
 #container .row {

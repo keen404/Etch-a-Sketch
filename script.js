@@ -2,20 +2,28 @@ document.addEventListener("DOMContentLoaded", () => {
     const container = document.querySelector("#container");
 
     const btn = document.createElement("button");
-    btn.textContent = "New Grid"
-    // Add click event to button
-        // Delete all the div inside container
-        // Prompt user for grid size
-        // Assign number to variable
-        // Loop as grid size
-            // Create a row div
-            // Add class name "row"
-            // Appended Child to container
-            // Loop as grid size
+    btn.textContent = "New Grid";
+    btn.addEventListener("click", () => {
+        const allDiv = document.querySelectorAll(".row");
+        allDiv.forEach(e => {
+            e.remove();
+        })
+        const gridSize = +prompt("Grid Size of 'NxN'");
+        for (let i = 0; i < gridSize; i++) {
+            const rowDiv = document.createElement("div");
+            rowDiv.classList.add("row");
+            container.appendChild(rowDiv);
+            for (let j = 0; j < gridSize; j++) {
                 // Create a div
-                // Add class name "aSqure"
-                // Add event mosuseenter
-                    // Changing "aSqure" background color to black
+                const squreDiv = document.createElement("div");
+                squreDiv.classList.add("aSqure");
+                squreDiv.addEventListener("mouseenter", () => {
+                    squreDiv.style.backgroundColor = "black";
+                })
+                rowDiv.appendChild(squreDiv);
+            }
+        }
+    })
     container.appendChild(btn);
     
     for (let i = 0; i < 16; i++) {
