@@ -8,10 +8,12 @@ document.addEventListener("DOMContentLoaded", () => {
         allDiv.forEach(e => {
             e.remove();
         })
+
         let gridSize = -1;
         while (gridSize > 100 || gridSize < 0) {
             gridSize = +prompt("Grid Size?");
         }
+        
         for (let i = 0; i < gridSize; i++) {
             const rowDiv = document.createElement("div");
             rowDiv.classList.add("row");

@@ -5,7 +5,7 @@
 
 body {
     min-height: 100vh;
-    background-color: antiquewhite;
+    background-color: #F1EFEC;
 }
 
 #container {
@@ -16,8 +16,9 @@ body {
 
 #container button {
     margin: 2px 37%;
-    font-size: xx-small;
-    background-color: blanchedalmond;
+    font-size: xx-large;
+    background-color: #123458;
+    color: #D4C9BE;
 }
 
 #container .row {
@@ -26,7 +27,8 @@ body {
 }
 
 .row .aSqure {
-    background-color: aqua;
-    border: 1px solid darkgray;
+    background: rgb(12 50 88 / 5%);
+    border-top: 2px solid #D4C9BE;
+    border-right: 2px solid #D4C9BE;
     flex: 1;
 }
