@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 const squreDiv = document.createElement("div");
                 squreDiv.classList.add("aSqure");
                 squreDiv.addEventListener("mouseenter", () => {
-                    squreDiv.style.backgroundColor = "black";
+                    squreDiv.style.opacity = parseFloat(+squreDiv.style.opacity + 0.1);
                 })
                 rowDiv.appendChild(squreDiv);
             }
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const newDiv = document.createElement("div");
             newDiv.classList.add("aSqure");
             newDiv.addEventListener("mouseenter", () => {
-                newDiv.style.backgroundColor = "black";
+                newDiv.style.opacity = parseFloat(+newDiv.style.opacity + 0.1);
             })
             gridRow.appendChild(newDiv);
         }
