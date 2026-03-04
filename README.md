@@ -1,4 +1,16 @@
-# Etch-a-Sketch
-- Create a webpage with a 16x16 grid of square divs
-- Set up a “hover” effect so that the grid divs change color when your mouse passes over them, leaving a (pixelated) trail through your grid like a pen would.
-- Add a button on the top of the screen that will send the user a popup asking for the number of squares per side for the new grid. Once entered, the existing grid should be removed, and a new grid should be generated in the same total space as before (e.g., 960px wide) so that you’ve got a new sketch pad.
+# เอ็ทช์-อะ-สเคทช์ (Etch-a-Sketch)
+
+เอ็ทช์-อะ-สเคทช์เป็นโครงการที่สร้างขึ้นเพื่อพัฒนาทักษะการจัดการกับ DOM (Document Object Model) ใน JavaScript โดยโครงการนี้ให้ผู้ใ��้สามารถสร้างภาพวาดได้โดยการเลื่อนเมาส์หรือใช้นิ้วสัมผัสบนจอแสดงผล
+
+## วัตถุประสงค์ในการเรียนรู้
+- พัฒนาทักษะการจัดการกับ DOM โดยใช้ JavaScript
+- ฝึกการสร้างฟังก์ชันที่สามารถตอบสนองต่อการกระทำของผู้ใช้
+- เรียนรู้การสร้างและปรับเปลี่ยนองค์ประกอบ HTML
+- ใช้ CSS ในการจัดระเบียบและจัดรูปแบบการแสดงผล
+
+## คุณสมบัติ
+- วาดภาพโดยการเคลื่อนที่ของเมาส์
+- เปลี่ยนสีของภาพที่วาดได้ตามที่ต้องการ
+- ล้างภาพที่วาดไปแล้ว
+
+การสร้างโปรเจกต์นี้ไม่เพียงแต่ช่วยให้พัฒนาทักษะใน JavaScript และการจัดการ DOM แต่ยังเป็นผลงานที่แสดงถึงความสามารถในการพัฒนาเว็บ และสามารถใช้ในการสมัครงานได้อย่างมีประสิทธิภาพ.
